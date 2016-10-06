@@ -1,13 +1,12 @@
 {
   "name": "htmlrapier.json-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "dependencies": {
-
+    "json-editor": "~0.7.28"
   },
   "devDependencies": {
     "gulp-build-shortcuts": "threax/gulp-build-shortcuts",
-    "jsns": "^1.0.0",
-    "json-editor": "~0.7.28"
+    "jsns": "^1.0.0"
   }
 }
