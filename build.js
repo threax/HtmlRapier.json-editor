@@ -62,9 +62,6 @@ module.exports = function (sourceDir, outDir) {
 
             // End the closure
             __dirname + "/close.js",
-
-            //Plugin
-            __dirname + "/plugin.js",
         ],
         output: "json-editor",
         dest: outDir,
