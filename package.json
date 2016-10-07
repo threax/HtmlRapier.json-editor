@@ -6,7 +6,8 @@
     "json-editor": "~0.7.28"
   },
   "devDependencies": {
-    "gulp-build-shortcuts": "threax/gulp-build-shortcuts",
-    "jsns": "^1.0.0"
+    "threax-gulp-tk": "^1.0.0",
+    "jsns": "^1.0.0",
+    "htmlrapier": "^1.2.1"
   }
 }
