@@ -106,5 +106,5 @@ export interface JSONEditorOptions{
     /**
      * An array of custom validators. The this for these functions will be the JSON Editor Validator class.
      */
-    custom_validators?:(schema:any, value:any, path:any)=>any[];
+    custom_validators?:((schema:any, value:any, path:any)=>any)[];
 }
