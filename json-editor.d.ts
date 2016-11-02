@@ -102,4 +102,9 @@ export interface JSONEditorOptions{
      * If true, only required properties will be included by default.
      */
     display_required_only?:boolean;
+
+    /**
+     * An array of custom validators. The this for these functions will be the JSON Editor Validator class.
+     */
+    custom_validators?:(schema:any, value:any, path:any)=>any[];
 }
