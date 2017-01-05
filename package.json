@@ -1,10 +1,10 @@
 {
   "name": "htmlrapier.json-editor",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "private": false,
   "dependencies": {
     "json-editor": "~0.7.28",
-    "htmlrapier": "^2.1.0"
+    "htmlrapier": "^3.0.0"
   },
   "devDependencies": {
     "threax-gulp-tk": "^2.0.0"
