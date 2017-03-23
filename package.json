@@ -1,6 +1,6 @@
 {
   "name": "htmlrapier.json-editor",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "private": false,
   "dependencies": {
     "json-editor": "~0.7.28",

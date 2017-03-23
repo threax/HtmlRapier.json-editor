@@ -1,4 +1,21 @@
 JSONEditor.defaults.themes.bootstrap3custom = JSONEditor.AbstractTheme.extend({
+  getContainer: function () {
+      var el = document.createElement('div');
+      el.setAttribute('class', 'hr-json-editor');
+      return el;
+  },
+  getHeader: function (text) {
+      var el = document.createElement('h3');
+      el.setAttribute('class', 'title');
+      if (typeof text === "string") {
+          el.textContent = text;
+      }
+      else {
+          el.appendChild(text);
+      }
+  
+      return el;
+  },
   getSelectInput: function(options) {
     var el = this._super(options);
     el.className += 'form-control';
