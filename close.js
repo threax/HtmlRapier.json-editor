@@ -1,2 +1,2 @@
-﻿    exports.JSONEditor = JSONEditor;
+    exports.JSONEditor = JSONEditor;
 });

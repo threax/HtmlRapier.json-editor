@@ -1,7 +1,11 @@
 ﻿var concat = require('threax-npm-tk/concat');
 
-module.exports = function (outDir) {
-    var sourceDir = __dirname + "/../json-editor";
+compile(__dirname + "/bin", "node_modules/json-editor");
+
+function compile(outDir, sourceDir) {
+    if(!sourceDir){
+        sourceDir = __dirname + "/../json-editor";
+    }
 
     return concat([
         // License & version info, start the containing closure
