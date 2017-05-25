@@ -29,6 +29,11 @@ export interface JSONEditorOptions{
     disable_array_reorder?: boolean,
 
     /**
+     * If true remove empty properties.
+     */
+    remove_empty_properties?: boolean;
+
+    /**
      * If true, remove all collapse buttons from objects and arrays.
      */
     disable_collapse?:boolean;
